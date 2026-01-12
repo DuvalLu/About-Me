@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact</h1>
+    
+    <form action="#" method="get"></form>
+        <div class="form-row">
+            <label>
+                First Name:
+                <input type="text" name="first Name" required/>
+            </label>
+        </div>
+        </div class="form-row">
+            <label>
+                Last Name:
+                <input type="text" name="Last Name" required/>
+            </label>
+        </div>
+        <div class="form-row">
+            <label>
+                E-Mail:
+                <input type=email name="E-Mail" required/>
+            </label>
+        </div>
+        <div class="form-row">
+            <label>
+                Phone Number:
+                <input type="tel" 
+                name="Phone" 
+                required
+                placeholder="format 904-246-8826"
+                pattern=""/>
+            </label>
+        </div>
+        <div class="form-row">
+            <label>
+                Message:
+            <textarea name="Message" cols="30" rows="10"></textarea>    
+            </label>
+        </div>
+        <div class="form-row">
+            <label>
+                Gender:
+                <select name="Gender">
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>      
+                    <option value="Other">Other</option>
+                    <option value="Do-Not-Disclose">Do not disclose</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-row">
+            <fieldset>
+                <legend>Topic</legend>
+                <label>
+                    <input type="radio" name="Topic" value="html" />
+                    HTML
+                </label>
+                 <label>
+                    <input type="radio" name="Topic" value="CSS" />
+                    CSS
+                </label>
+                 <label>
+                    <input type="radio" name="Topic" value="JS" />
+                    JavaScript
+                </label>
+            </fieldset>
+        </div>
+        <div class="form-row">
+            <fieldset>
+                <legend>Request</legend>
+                <label>
+                    <input type="checkbox" name="advice" checked/>
+                    Advice
+                </label>
+                <label>
+                    <input type="checkbox" name="information" />
+                    Information
+                </label>
+                <label>
+                    <input type="checkbox" name="motivation" />
+                    Motivation
+                </label>
+            </fieldset>
+            <div class="form-row">
+                <label>
+                    Urgency (0-10)
+                    <input type="range" min="0" max="10" name="Urgency" value="2">
+                </label>
+            </div>
+        </div>
+
+        <div class="form-row">
+                <button type="submit">Send</button>
+         </div>
+        
+    </form>
+       
+</body>
+</html>

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-a:    
+
+}
+
+nav {
+    height: 3em;
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a :hover {
+    color: rgb(4c, 2b, 36);
+}
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    font-size: 1.25rem;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Gloria Hallelujah'; cursive;
+    text-decoration: underline;
+    display: inline-block;
+    padding: 20px;
+    width: 500px;
+    border: 5px solid grey;
+    margin: 50px;
+    background-image: url(..images/background-image.jpg);
+}
+
+p {
+    padding: 10px;
+}
+header {
+    background-color: white;
+    align-items: center;
+}
+
+[type=text], [type=email] {
+    padding: 5px;
+}
+
+.introduction {
+    font-size: 1.25rem;
+    text-align: center;
+}
+.profile {
+    background-color: white;
+}
+
+.profile-description {
+    background-color: rgba(45, 45, 45, 0.2)
+}
+
+.profile-image {
+    width: 230px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0 50% 0 50%
+
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-light {
+    color: rgb(4c, 2b, 36);
+    background-image: url(../images/97\ cobra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0%;
+}
+
+.bg-light > .shield {
+    margin: 50px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 25px;
+}
+
+.multi-column-container {
+    display: flex;
+}
+
+.three-column-item {
+    width: calc(100% / 3 - 10px);
+    margin: 50px 5px;
+    border: 5px solid rgb(2e, 40, 57);
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    text-align: center;
+
+}
+.three-column-item h3 {
+    margin: 40px auto;
+}
+
+input, textarea {
+    width: 50px;
+    margin: 10px auto;
+    padding: 12px 20px  
+
+}
+
+[type=submit] {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 1);
+    cursor: pointer;
+    box-sizing: content-box;
+    font-size: 28px;
+}
